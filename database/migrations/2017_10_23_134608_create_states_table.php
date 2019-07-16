@@ -17,6 +17,8 @@ class CreateStatesTable extends Migration
             $table->increments('id');
             $table->string('name',30);
             $table->bigInteger('country_id');
+            $table->foreign('country_id')->references('id')->on('countries')->onDelete('cascade')->onUpdate('cascade');
+
             $table->timestamps();
         });
     }

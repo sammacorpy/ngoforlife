@@ -1,10 +1,10 @@
 <?php
 
-$DATABASE_URL=parse_url('postgres://ouzsyjsjpshnrs:7a08ff9cbcdefe8f7adaeb451635714c9b6f7bbf8d40f19fc4a00b5305f8fda3@ec2-174-129-226-234.compute-1.amazonaws.com:5432/ddg9c8quvi3cmf');
+$DATABASE_URL=parse_url('postgres://mhnpajzcqbvwgw:59d79bc4687e5a11cf1a7f905eaf6f5fbda279d954a6fb16239d051ca7958a31@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d53osnioqkbbm5');
 return [
 
 
-    $DATABASE_URL=parse_url('postgres://ouzsyjsjpshnrs:7a08ff9cbcdefe8f7adaeb451635714c9b6f7bbf8d40f19fc4a00b5305f8fda3@ec2-174-129-226-234.compute-1.amazonaws.com:5432/ddg9c8quvi3cmf'),
+    $DATABASE_URL=parse_url('postgres://mhnpajzcqbvwgw:59d79bc4687e5a11cf1a7f905eaf6f5fbda279d954a6fb16239d051ca7958a31@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d53osnioqkbbm5'),
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name
