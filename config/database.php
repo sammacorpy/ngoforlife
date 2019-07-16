@@ -1,10 +1,10 @@
 <?php
 
-$DATABASE_URL=parse_url('postgres://mhnpajzcqbvwgw:59d79bc4687e5a11cf1a7f905eaf6f5fbda279d954a6fb16239d051ca7958a31@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d53osnioqkbbm5');
+// $DATABASE_URL=parse_url('postgres://mhnpajzcqbvwgw:59d79bc4687e5a11cf1a7f905eaf6f5fbda279d954a6fb16239d051ca7958a31@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d53osnioqkbbm5');
 return [
 
 
-    $DATABASE_URL=parse_url('postgres://mhnpajzcqbvwgw:59d79bc4687e5a11cf1a7f905eaf6f5fbda279d954a6fb16239d051ca7958a31@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d53osnioqkbbm5'),
+    // $DATABASE_URL=parse_url('postgres://mhnpajzcqbvwgw:59d79bc4687e5a11cf1a7f905eaf6f5fbda279d954a6fb16239d051ca7958a31@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d53osnioqkbbm5'),
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name
@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -57,18 +57,18 @@ return [
             'engine' => null,
         ],
 
-        'pgsql' => [
-            'driver' => 'pgsql',
-            'host' => $DATABASE_URL["host"],
-            'port' => $DATABASE_URL["port"],
-            'database' => ltrim($DATABASE_URL["path"], "/"),
-            'username' => $DATABASE_URL["user"],
-            'password' => $DATABASE_URL["pass"],
-            'charset' => 'utf8',
-            'prefix' => '',
-            'schema' => 'public',
-            'sslmode' => 'require',
-        ],
+        // 'pgsql' => [
+        //     'driver' => 'pgsql',
+        //     'host' => $DATABASE_URL["host"],
+        //     'port' => $DATABASE_URL["port"],
+        //     'database' => ltrim($DATABASE_URL["path"], "/"),
+        //     'username' => $DATABASE_URL["user"],
+        //     'password' => $DATABASE_URL["pass"],
+        //     'charset' => 'utf8',
+        //     'prefix' => '',
+        //     'schema' => 'public',
+        //     'sslmode' => 'require',
+        // ],
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
