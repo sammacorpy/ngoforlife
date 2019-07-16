@@ -1,0 +1,116 @@
+.jumbotron {
+    background-color: #fff;
+    color: orange;
+    font-size: 20px;
+}
+
+.lgoutmsg {
+    position: absolute;
+    background: orange;
+    padding: 10px;
+    padding-top: 15px;
+    color: #fff;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 0 0 50px 50px;
+}
+
+.legend {
+    color: orange;
+    font-size: 25px;
+}
+
+.formsign {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.forgotpass>a,
+.btncustom>a {
+    text-decoration: none;
+    color: #909090;
+}
+
+.forgotpass {
+    text-align: center;
+    padding: 5px;
+}
+
+.forgotpass>a {
+    color: #909090;
+}
+
+.custombutton {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#signinlink {
+    text-decoration: none;
+    color: #fff;
+}
+
+#signinlink:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#signinlink:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btncustom {
+    border: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+a:focus,
+input:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.signupbtn {
+    background-color: #a1a1a1;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.forgotpass>a:link {
+    text-decoration: none;
+    color: #909090;
+}
+
+.forgotpass>a:visited {
+    text-decoration: none;
+    color: #909090;
+}
+
+.signuptemp {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    color: #909090;
+    border: 1px solid #909090;
+}
+
+.forgotpass>a:hover {
+    color: orange;
+}
+
+@media(max-width:600px) {
+    .lgoutmsg {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 15px;
+        padding-top: 25px;
+    }
+}

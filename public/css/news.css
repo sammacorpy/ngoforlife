@@ -1,0 +1,257 @@
+.posts {
+    margin-top: 100px;
+    padding-top: 10px;
+    background: #eeeded;
+    height: 100vh;
+}
+
+
+/* .navbar {
+    background: #111;
+    border: none;
+    box-shadow: 0px 1px 1px #09FFD1;
+}
+
+.nav-item>a {
+    color: #606060 !important;
+}
+
+.nav-item>a:hover {
+    color: #fff !important;
+} */
+
+#btn-news {
+    background: none;
+    border: 1px solid #fffcff !important;
+    color: #606060;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+#news {
+    background: none;
+    border: 1px solid #606060;
+    color: #404040;
+}
+
+#btn-news {
+    color: #fff;
+    background: #097fe0;
+    width: 100px;
+}
+
+body {
+    background: #eeeded;
+}
+
+legend {
+    color: #030303;
+}
+
+.blockfpost {
+    background: #fffcff;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.newsfeed {}
+
+.username {
+    color: 606060;
+    /* font-family: "raleway", sans-serif; */
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.newsups {
+    color: #606060;
+    font-size: 15px;
+}
+
+.eachnews {
+    /* box-shadow: 0 0 5px #606060; */
+    background: #fffcff;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+.titlefeed {
+    font-size: 25px;
+    padding: 0 0 10 0px;
+    margin: 30px 0 30px 0;
+    color: #909090;
+}
+
+.jumbotron {
+    background: #eeeded;
+}
+
+.titlefeed {
+    background-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.titlefeed::before {
+    content: '';
+    display: block;
+    width: calc(50% - 75px);
+    position: relative;
+    top: 21px;
+    border-bottom: 0.5px solid #000;
+    border-top: 0.5px solid #000;
+    background-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.titlefeed::after {
+    content: '';
+    display: block;
+    width: calc(50% - 75px);
+    position: relative;
+    right: 0px;
+    top: -16px;
+    left: calc(50% + 75px);
+    border-bottom: 0.5px solid #000;
+    border-top: 0.5px solid #000;
+    background-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.profimg>img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.timer {
+    font-size: 12px;
+    display: block;
+    margin-left: 35px;
+    margin-top: -10px;
+    color: #a0a0a0;
+}
+
+.lcnav {
+    display: flex;
+    background: #d0d0d0;
+    margin-top: 15px;
+}
+
+.like {
+    padding: 5px 10px 5px 10px;
+}
+
+.comment {
+    padding: 5px 10px 5px 10px;
+}
+
+.commentbox {
+    padding: 5px;
+}
+
+.commentbox>span>input {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    width: 85%;
+}
+
+.cmnt>img {
+    width: 25px !important;
+    height: 25px !important;
+    z-index: 50;
+    display: inline-block;
+    position: relative;
+}
+
+#totallike {
+    background: #f3f3f3;
+    padding: 10px;
+}
+
+.menuicon {
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 0px 0 10px;
+    position: relative;
+    width: 100%;
+}
+
+.menuicon>ul>li {
+    font-size: 12px;
+    list-style: none;
+    color: black;
+    padding: 5px;
+    background: #f0f0f0;
+}
+
+.menuicon>ul>li:hover {
+    background: #909090;
+    color: #fff;
+}
+
+.show {
+    display: block;
+}
+
+.menuicon>ul {
+    background: #fff;
+    text-align: left;
+    display: none;
+    position: absolute;
+    padding: 0px;
+}
+
+.newsmenu {
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    right: 50px;
+    margin-top: -10px;
+}
+
+#viewmore {
+    width: 100%;
+    margin: 0px 0 10px 0;
+    border: none;
+    background: #eee;
+    color: #909090;
+}
+
+button:focus {
+    outline: none;
+}
+
+#edit {
+    border: none;
+    background: #515865;
+    color: #fff;
+    margin-top: 0px;
+    border-radius: 0px 10px 10px 10px;
+    padding: 2px 10px 2px 10px;
+}
+
+#editnewstext {
+    border: 1px solid #ddd;
+    background: #fffcff;
+    padding: 10px;
+    width: 100%;
+}
+
+.like>i {
+    cursor: pointer;
+}
+
+.comment>i {
+    cursor: pointer;
+}
