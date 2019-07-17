@@ -26,7 +26,7 @@
     6. run composer install
     7. run this command php artisan generate:key
     8. php artisan serve
-    9. open localhost:8000 hoorray u got it.
+    9. open localhost:8000 hurray u got it.
     
 
     
