@@ -96,11 +96,7 @@
                         <a href="/bs">Find Blood</a>
                     </li>
                     <li class="nav-item"><a href="news">News</a></li>
-                    <li class="nav-item"><a href="#">Emergency</a></li>
-                    <li class="nav-item"><a href="#">Donate</a></li>
-                    <li class="nav-item">
-                        <a href="#">About Us</a>
-                    </li>
+                    
                     
                     
 
@@ -111,7 +107,7 @@
                             <a href="/profile/{{ $_SESSION['usrname'] }}" class="underline">{{$_SESSION['usrname']}}</a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="/storage/profimg/{{$p}}" style="margin-top:-5px;padding:0px;border-radius:100%;" width="30" height="30"></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="https://ngoforlife.s3.ap-south-1.amazonaws.com/{{$p}}" style="margin-top:-5px;padding:0px;border-radius:100%;" width="30" height="30"></a>
                         <ul class="dropdown-menu dropdown-cart" role="menu">
                             <li>
                                 <a href="/profile/{{ $_SESSION['usrname'] }}" style="color:#808080;">View profile</a>

@@ -33,7 +33,7 @@
             </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> 
-                    <img src="/storage/profimg/{{$p}}" style="margin-top:-5px;padding:0px;border-radius:100%;" width="30" height="30">
+                    <img src="https://ngoforlife.s3.ap-south-1.amazonaws.com/{{$p}}" style="margin-top:-5px;padding:0px;border-radius:100%;" width="30" height="30">
                 </a>
                 <ul class="dropdown-menu dropdown-cart" role="menu">
                     <li><a href="/logout" style="color:#808080;">Logout</a></li>

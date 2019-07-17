@@ -157,18 +157,19 @@ class homepanel extends Controller
         if ($r->hasFile('imgprof') && ($r->imgprof->extension()=='jpeg' || $r->imgprof->extension()=='png' || $r->imgprof->extension()=='jpg' || $r->imgprof->extension()=='gif' || $r->imgprof->extension()=='bmp' || $r->imgprof->extension()=='jpeg' || $r->imgprof->extension()=='tiff')){
                 $d=profimage::where('username',$username)->first();
                 if(!empty($d)){
-                    Storage::delete('public/profimg/'.$d->profile_image);
-                    $p=$r->file('imgprof')->store('public/profimg');
-                    $p=explode('/',$p);
-                    $p=$p[2];
+                    if (Storage::has('profimg/'.$d->profile_image))
+                    Storage::delete('profimg/'.$d->profile_image);
+                    $p=$r->file('imgprof')->store('profimg');
+                    // $p=explode('/',$p);
+                    // $p=$p[2];
                     $d->profile_image=$p;
                     $d->save();
 
                 }
                 else{
-                    $p=$r->file('imgprof')->store('public/profimg');
-                    $p=explode('/',$p);
-                    $p=$p[2];
+                    $p=$r->file('imgprof')->store('profimg');
+                    // $p=explode('/',$p);
+                    // $p=$p[2];
                     $d=new profimage;
                     $d->profile_image=$p;
                     $d->username=$username;

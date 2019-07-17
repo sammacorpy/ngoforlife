@@ -1,7 +1,7 @@
 @foreach($news as $n)
                     <div class="eachnews" id="eachnews_{{$n->newsfeed_id}}">
 
-                        <div class="username"><span class="profimg"><img src="/storage/profimg/{{$n->profile_image}}" id=""></span><span> {{ $n->username}}</span>  
+                        <div class="username"><span class="profimg"><img src="{{$n->profile_image}}" id=""></span><span> {{ $n->username}}</span>  
                         @if(isset($_SESSION['usrname']))
                         @if(strcmp($_SESSION['usrname'],$n->username)==0)
                             <span class="newsmenu">
@@ -39,7 +39,7 @@
                             </div>
                             @if(isset($_SESSION['usrname']))
                             <span class="profimg cmnt">
-                                <img src="/storage/profimg/{{$p}}">
+                                <img src="{{$p}}">
                             </span> 
                             <span>
                                 <input id="cmmentinput" type="text" name="comment" placeholder="Write a comment...">
